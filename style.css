@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
-    background-image: url('img/header.jpg');
+    background-image: url(https://reniipp.github.io/lattafa/img/header.jpg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -156,7 +156,7 @@ h2{
 #banner {
     height: 100vh;
     display: flex;
-    background-image: url(../img/banner.jpg);
+    background-image: url(https://reniipp.github.io/lattafa/img/banner.jpg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -282,7 +282,7 @@ h2{
     margin-bottom: 0;
     position: relative;
     min-height: 600px;
-    background-image: url(../img/footer.png);
+    background-image: url(https://reniipp.github.io/lattafa/img/footer.png);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
