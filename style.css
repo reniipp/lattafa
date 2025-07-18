@@ -1,6 +1,7 @@
 body {
     background-color: #290002;
     scroll-behavior: smooth;
+    max-width: 100%;
 }
 
 /*SECCION 1*/
