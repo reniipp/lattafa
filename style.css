@@ -185,13 +185,13 @@ line-height: 1;
 
 
 #fotos {
-    max-width: 100%;
-    box-sizing: border-box;
-padding: 40px 5vw;
-    display: flex;
-    gap: 100px;
-    align-items: center;
-    padding-left: 5rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 40px 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
 }
 
 #fotos img {
@@ -303,28 +303,20 @@ h2{
 }
 
 .notas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
-    overflow: hidden;
-    background-color: #290002;
-    margin-bottom: 30px;
-      overflow-x: hidden;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  gap: 2rem;
+  padding: 0 2rem;
 }
 
 .imagen_notas {
-    width: 100%;
-    max-width: 600px;
-    flex: 1 1 300px;
-    height: 80vh;
-    position: relative;
-    transition: all 0.7s ease-in-out;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
+  flex: 1 1 280px;
+  max-width: 300px;
+}
+
+.imagen_notas:hover {
+  flex: 1 1 300px;
+  max-width: 320px;
 }
 
 .imagen_notas img {
@@ -334,10 +326,6 @@ h2{
     transform-origin: top; 
 }
 
-.imagen_notas:hover {
-    flex: 1 1 330px;
-    max-width: 650px;
-}
 
 .imagen_notas:hover img,
 .imagen_notas:hover .texto_notas {
