@@ -1,8 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
     background-color: #290002;
     scroll-behavior: smooth;
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 /*SECCION 1*/
@@ -171,7 +180,6 @@ line-height: 1;
     color: #e6d5b8;
     text-align: right;
     line-height: 0.9;
-    padding-right: 10rem;
 }
 
 
