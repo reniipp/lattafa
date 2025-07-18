@@ -5,10 +5,9 @@
 }
 
 html, body {
-  overflow-x: hidden;
   max-width: 100%;
-      background-color: #290002;
-
+  overflow-x: hidden;
+  background-color: #290002;
 }
 
 
@@ -95,8 +94,6 @@ html, body {
     color: #000;
     display: flex;
     gap: 4rem;
-      flex-wrap: wrap;
-  max-width: 100%;
 }
 
 .fecha {
@@ -121,8 +118,8 @@ line-height: 1;
 }
 
 .evento-img {
-  width: auto;
-  height: auto;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -186,11 +183,10 @@ line-height: 1;
 
 
 #fotos {
-    max-width: 100%;
-    box-sizing: border-box;
-padding: 40px 5vw;
+    padding-right: 200px;
+    padding-top: 40px;
     display: flex;
-    gap: 100px;
+    gap: 100px; 
     align-items: center;
     padding-left: 5rem;
 }
@@ -311,14 +307,10 @@ h2{
     overflow: hidden;
     background-color: #290002;
     margin-bottom: 30px;
-      overflow-x: hidden;
-  flex-wrap: nowrap;
 }
 
 .imagen_notas {
-    width: 100%;
-    max-width: 600px;
-    flex: 1 1 300px;
+    width: 33.3%;
     height: 80vh;
     position: relative;
     transition: all 0.7s ease-in-out;
@@ -336,8 +328,8 @@ h2{
 }
 
 .imagen_notas:hover {
-    flex: 1 1 330px;
-    max-width: 650px;
+    width: 36%;
+    z-index: 10;
 }
 
 .imagen_notas:hover img,
