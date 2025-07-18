@@ -26,27 +26,21 @@ body {
 /* SECCION 2*/
 #section1 {
     background-color: #290002;
-    height: 60vh;
+    height: 100vh;
     display: flex; 
-    justify-content: center; 
+    padding-left: 10vh;
     align-items: center; 
 }
 
 #descubri {
     font-family: 'poppins', sans-serif;
-    font-weight: 300 !important;
-    font-size: 30px; 
-    font-style: italic;
+    font-weight: 100 !important;
+    font-size: 9rem; 
     color: #e6d5b8;
-    text-align: center;
-    
-    transform: scale(0.8);
-    transition: transform 0.5s ease-out;
+    text-align: left;
+    line-height: 0.9;
 }
 
-#descubri.grow {
-    transform: scale(1.2);
-}
 
 
 
@@ -77,53 +71,123 @@ body {
 }
 
 
+/*SECCION 4*/
+#seccion-eventos{
+    height: 150vh;
+    background-color: #f1eade; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.evento {
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    display: flex;
+    gap: 4rem;
+}
+
+.fecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+line-height: 1;
+  font-weight: 100;
+  font-size: 5rem;
+  min-width: 100px;
+}
+
+.dia-numero {
+  font-size: 8rem;
+  font-weight: 200;
+}
+
+.contenido {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.evento-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.texto {
+  max-width: 700px;
+}
+
+.texto h3 {
+  margin: 0 0 0.5rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.texto p {
+  margin: 0.3rem 0;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.texto p.descripcion {
+    font-weight: 200;
+    font-size: 1.9rem;
+    line-height: 1;
+}
+
+.ver-mas {
+    display: block;
+    margin-top: 1.5rem;
+    font-weight: 400;
+    color: #000;
+}
+
+
+
 
 /*SECCION 4*/
-#seccion3_1 {
-    font-family: 'poppins', sans-serif;
-    color: #e6d5b8;
+#seccion4 {
+    height: 100vh;
     background-color: #290002;
-    height: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: end;
-    gap: 20px; 
+    align-items: center;
+    padding: 2rem; 
 }
+
 
 #cuando {
     padding-left: 200px;
 }
 
 #marcas {
-    padding-right: 200px;
-}
-
-#seccion3_2 {
     font-family: 'poppins', sans-serif;
+    font-weight: 100 !important;
+    font-size: 9rem; 
     color: #e6d5b8;
-    background-color: #290002;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    gap: 20px;
-    height: 300px;
+    text-align: right;
+    line-height: 0.9;
+    padding-right: 10rem;
 }
 
-#texto {
-    padding-left: 200px;
+.seccion3_2 {
+    padding-left: 10rem;
 }
 
 #fotos {
     padding-right: 200px;
     padding-top: 40px;
     display: flex;
-    gap: 50px; 
+    gap: 100px; 
     align-items: center;
 }
 
 #fotos img {
     transition: transform 0.3s ease-in-out;
-    width: 100px; 
+    width: 150px; 
 }
 
 #fotos img:hover {
@@ -197,7 +261,11 @@ h2{
 
 /*SECCION 7*/
 .titulos {
-    font-size: 50px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 100 !important;
+    font-size: 9rem; 
+    color: #e6d5b8;
+    text-align: left;
 }
 
 .titulos_box {
@@ -205,16 +273,13 @@ h2{
     font-family: 'poppins', sans-serif;
     color: #e6d5b8;
     background-color: #290002;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 5rem;
 }
 
 .box_perfumes {
     width: 100%;
     background-color: #290002;
-    padding-top: 80px;
-    padding-bottom: 90px;
+    padding-top: 20px;
 }
 
 .box_fotos {
@@ -224,7 +289,7 @@ h2{
 }
 
 .imagen {
-    width: 80%;
+    width: 100%;
     display: block;
 }
 
@@ -235,6 +300,7 @@ h2{
     height: 800px;
     overflow: hidden;
     background-color: #290002;
+    margin-bottom: 30px;
 }
 
 .imagen_notas {
@@ -266,9 +332,9 @@ h2{
 }
 
 .texto_notas {
-    margin-top: 15px;
+    margin-top: 30px;
     font-family: 'poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #e6d5b8;
     text-align: center;
     transition: transform 0.8s ease-in-out;
@@ -279,6 +345,8 @@ h2{
 
 /*SECCION 8*/
 #footer {
+    margin-top: 300px;
+    height: 70vh;
     margin-bottom: 0;
     position: relative;
     min-height: 600px;
