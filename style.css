@@ -180,6 +180,7 @@ line-height: 1;
     color: #e6d5b8;
     text-align: right;
     line-height: 0.9;
+    padding-right: 5rem;
 }
 
 
@@ -190,6 +191,7 @@ line-height: 1;
     display: flex;
     gap: 100px; 
     align-items: center;
+    padding-left: 5rem;
 }
 
 #fotos img {
