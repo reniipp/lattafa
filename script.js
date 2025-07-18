@@ -10,24 +10,4 @@ document.getElementById("inscripcionForm").addEventListener("submit", function(e
 
 
 
-//ANIMACIÓN DESCUBRÍ
-document.addEventListener("DOMContentLoaded", function () {
-const descubriText = document.querySelector("#descubri");
-
-function scaleOnScroll() {
-if (!descubriText) return;
-
-const rect = descubriText.getBoundingClientRect();
-const windowHeight = window.innerHeight;
-
-if (rect.top < windowHeight * 0.85) { // Se activa antes
-    descubriText.classList.add("grow");
-} else {
-    descubriText.classList.remove("grow");
-}
-}
-// Llamamos la función al cargar y en cada scroll
-window.addEventListener("scroll", scaleOnScroll);
-scaleOnScroll();
-});
 

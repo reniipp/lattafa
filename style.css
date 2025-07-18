@@ -54,7 +54,7 @@ html, body {
 
 /*SECCION 3*/
 #carouselExample {
-    width: 100vw; 
+    width: 100%;
 }
 
 #carousel-container {
