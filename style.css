@@ -1,15 +1,7 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body {
+    background-color: #290002;
+    scroll-behavior: smooth;
 }
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-  background-color: #290002;
-}
-
 
 /*SECCION 1*/
 #header {
@@ -177,7 +169,6 @@ line-height: 1;
     color: #e6d5b8;
     text-align: right;
     line-height: 0.9;
-    padding-right: 5rem;
 }
 
 
@@ -188,7 +179,6 @@ line-height: 1;
     display: flex;
     gap: 100px; 
     align-items: center;
-    padding-left: 5rem;
 }
 
 #fotos img {
