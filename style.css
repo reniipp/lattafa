@@ -2,6 +2,7 @@ body {
     background-color: #290002;
     scroll-behavior: smooth;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 /*SECCION 1*/
