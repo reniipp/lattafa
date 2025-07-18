@@ -186,10 +186,11 @@ line-height: 1;
 
 
 #fotos {
-    padding-right: 200px;
-    padding-top: 40px;
+    max-width: 100%;
+    box-sizing: border-box;
+padding: 40px 5vw;
     display: flex;
-    gap: 100px; 
+    gap: 100px;
     align-items: center;
     padding-left: 5rem;
 }
@@ -315,8 +316,9 @@ h2{
 }
 
 .imagen_notas {
-    max-width: 33%;
-    flex: 1 1 33%;
+    width: 100%;
+    max-width: 600px;
+    flex: 1 1 300px;
     height: 80vh;
     position: relative;
     transition: all 0.7s ease-in-out;
@@ -334,10 +336,8 @@ h2{
 }
 
 .imagen_notas:hover {
-      flex: 1 1 36%;
-  max-width: 36%;
-    width: 36%;
-    z-index: 10;
+    flex: 1 1 330px;
+    max-width: 650px;
 }
 
 .imagen_notas:hover img,
